@@ -1,0 +1,60 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+
+  <head>
+    <title>Eletronica</title>
+    <link href="https://fonts.googleapis.com/css?family=Limelight|Merriweather+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <link href = "assets/css/reset.css" rel = "stylesheet">
+    <link href = "assets/css/style.css" rel = "stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale = 1">
+    <script src="assets/js/codes.js"></script>
+    <script src="assets/js/categoria.js"></script>
+  </head> 
+
+  <body class='bodycat'>
+   <header class = 'header1'>
+     <div class='nav'>
+        <p><a class = "h1" href="index.html">Portfolio</a></p>
+        {{#each portfolio}} 
+
+        <p><a class="submenu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a></p> 
+        {{/each}}
+       </div>
+
+ </header>
+
+ <header class="header2">
+    <div class="nav2">
+        <p><a class = "h12" href="index.html">Portfolio</a></p>
+          <button class="dropbtn">Menu</button>
+                <ul class="dropdown-content">
+                    {{#each portfolio}} 
+                     <li><a  href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+              {{/each}}
+
+                </ul>
+        </div>
+
+      </header>
+
+
+ <main class="maincat">
+
+  <section class = 'csection1'> 
+   {{#each projetos}}
+
+    <div class="ctitle1">
+<h3><a class="linkx" href = "projeto.html?pai=value&key={{@key}}">{{this.titulo}}</a></h3></div>
+    <div class="ctext1">{{this.descricao}}</div>
+
+    <img class="cimg1" src="assets/img/{{this.titulo}}.png" alt={{this.titulo}} height="360" width="1000">
+    {{/each}}
+
+  </section>
+</main>
+
+
+</body>
+</html>
