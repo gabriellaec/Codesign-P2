@@ -15,9 +15,8 @@
 	color: #191970;
 	background-image: url(C:\Users\gabic\Documents\Co-design aplicativos\Codesign\3\assets\img\fundo.jpg) blue;
 
-	background-color: #d98cb3;
+	background-color: #FF7791;
 }
-
 
 .header1 {
 	display:none;
@@ -26,8 +25,8 @@
 	height: 5em;
 	max-width: 1fr;
 	min-width: 1fr;
-	color: #191970;
-	background-color: #d98cb3;
+	color: #E8938B;
+	background-color: #E8938B;
 }
 
 .nav2 {
@@ -408,7 +407,7 @@
     grid-column-start: 1;
     grid-row-end: 2;
     grid-row-start: 1;
-    grid-column-end:3; 
+    grid-column-end:4; 
     margin-left: auto;
     margin-right: auto;
     justify-self:center;
@@ -419,9 +418,11 @@
 
 .pimg {
  	grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 3;
+	border-radius: 50%;
+
     margin-top:auto;
     margin-left: auto;
     margin-right: auto;
@@ -432,8 +433,8 @@
 }
 
 .ptitulo2{
-	grid-column-start:1;
-	grid-row-start: 3;
+	grid-column-start:2;
+	grid-row-start: 2;
 	justify-self: left;
 	margin-left: .5rem;
 	margin-top: 8rem;
@@ -447,30 +448,30 @@
     grid-row-start: 3;
 	justify-self: left;
 	margin-left: .5rem;
-	margin-top: 8rem;
-	font-size: .9rem;
+	margin-top: 9.0rem;
+	font-size: 1.2rem;
 	font-family: 'PT Sans', Merriweather, serif;
 	line-height: 1.5rem;
 }
 
 .ptitulo3{
- 	grid-column-start:1;
-	grid-row-start: 4;
+ 	grid-column-start:2;
+	grid-row-start:2 ;
 	justify-self: left;
 	margin-left: .5rem;
-	margin-top: 5rem;
-	font-size: 1.5rem;
-    font-family: Limelight, Roboto Slab;
+	margin-top: 1rem;
+	font-size: 1.4rem;
+    font-family: "Petit Formal Script", Roboto Slab;
     color: #191970;
 }
 
 .ptexto3{
  	grid-column-start:2;
-    grid-row-start: 4;
+    grid-row-start: 2;
 	justify-self: left;
 	margin-left: .5rem;
-	margin-top: 5rem;
-	font-size: .9rem;
+	margin-top: 3rem;
+	font-size: 1.0rem;
 	font-family: 'PT Sans', Merriweather, serif;
 	line-height:1.6em;
 }
@@ -481,8 +482,20 @@
     grid-column-end: 4;
 	justify-self: left;
 	margin-left: .5rem;
-	margin-top:0rem;
-	font-size: .9rem;
+	margin-top:-2rem;
+	font-size: 1.2rem;
+	font-family: 'PT Sans', Merriweather, serif;
+	line-height:1.6em;
+}
+
+.ptexto12{
+ 	grid-column-start:2;
+    grid-row-start: 5;
+    grid-column-end: 4;
+	justify-self: left;
+	margin-left: .5rem;
+	margin-top:1rem;
+	font-size: 1.2rem;
 	font-family: 'PT Sans', Merriweather, serif;
 	line-height:1.6em;
 }
@@ -492,16 +505,48 @@
     grid-row-start: 5;
 	justify-self: left;
 	margin-left: .5rem;
-	margin-top:2.5rem;
+	margin-top:-1.5rem;
 	font-size: 1.5rem;
     font-family:  "Petit Formal Script", Roboto Slab;
     color: #191970;
 }
 
+.ptexto13{
+ 	grid-column-start:2;
+    grid-row-start: 5;
+    grid-column-end: 4;
+	justify-self: left;
+	margin-left: .5rem;
+	margin-top:5.5rem;
+	font-size: 1.2rem;
+	font-family: 'PT Sans', Merriweather, serif;
+	line-height:1.6em;
+}
+
+b { 
+  font-weight: bold;
+  font-color:#FF7791;
+}
+
+hr {
+ 	grid-column-start:1;
+    grid-row-start: 5;
+    grid-row-end: 6;
+	justify-self: center;
+	margin-left: 10rem;
+	border-color: #FF7791;
+	margin-right: auto;
+	margin-top:-2rem;
+	margin-bottom:-8rem;
+
+	border-style: inset;
+	border-width: 2px;
+}
+
 .ptitulo4{
  	grid-column-start:1;
     grid-row-start: 6;
-	justify-self: center;
+	justify-self: left;
 	margin-left: .5rem;
 	margin-top: -0.5rem;
 	font-size: 1.5rem;
@@ -512,14 +557,39 @@
 .ptexto4{
  	grid-column-start:2;
     grid-row-start: 6;
-	justify-self: center;
+	justify-self: left;
 	margin-left: .5rem;
-	margin-top: .5rem;
-	font-size: .9rem;
+	margin-top: .0rem;
+	font-size: 1.2rem;
 	margin-bottom: 3rem;
 	font-family: 'PT Sans', Merriweather, serif;
 	line-height:1.6em;
 }
+
+.ptexto42{
+ 	grid-column-start:2;
+    grid-row-start: 6;
+	justify-self: left;
+	margin-left: .5rem;
+	margin-top:3rem;
+	font-size: 1.2rem;
+	margin-bottom: 3rem;
+	font-family: 'PT Sans', Merriweather, serif;
+	line-height:1.6em;
+}
+
+.ptexto43{
+ 	grid-column-start:2;
+    grid-row-start: 6;
+	justify-self: left;
+	margin-left: .5rem;
+	margin-top: 7.5rem;
+	font-size: 1.2rem;
+	margin-bottom: 3rem;
+	font-family: 'PT Sans', Merriweather, serif;
+	line-height:1.6em;
+}
+
 
 .bodycat{
 	width: 100%;
