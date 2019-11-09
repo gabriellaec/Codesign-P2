@@ -14,8 +14,8 @@
 	height: 4rem;
 	color: #191970;
 	background-image: url(C:\Users\gabic\Documents\Co-design aplicativos\Codesign\3\assets\img\fundo.jpg) blue;
+	 background-image: radial-gradient(white, rgba(255,0,0,0), #FDBABA);
 
-	background-color: #FF7791;
 }
 
 .header1 {
@@ -42,7 +42,7 @@
 .dropbtn{
   grid-column-start: 3;
   grid-row-start: 1;
-  background-color: #191970;
+  background-color: #804047;
   color: white;
   height:4rem;
   font-size: 2rem;
@@ -110,7 +110,7 @@
 	margin-top: 5rem;
 	margin:1rem;
 	font-family:  "Petit Formal Script", "Roboto Slab";
-	color: #191970;
+	color: #804047;
 
 	
 }
@@ -123,7 +123,7 @@
 	margin-top: 5rem;
 	margin:1rem;
 	font-family:  "Petit Formal Script", "Roboto Slab";
-	color: #191970;
+	color: #804047;
 
 	
 }
@@ -396,6 +396,8 @@
 	display: grid;
 	grid-template-columns: 50% 50%;
     grid-template-rows: auto 5% 12% 25% 25%;
+    background-image: linear-gradient(#FCD2D1,#F5F5F5,#F5F5F5, #F5F5F5);
+
 }
 
 .main{
