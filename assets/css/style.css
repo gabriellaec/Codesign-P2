@@ -1146,4 +1146,80 @@ hr {
 		color: #191970;
 	}
 
+	.maincatalogo{
+		grid-template-columns: 1 1 1;
+		grid-template-rows: 2 1 1 1 1 1 1;
+	}
+
+	.castanhos{
+		grid-row-start: ;
+		grid-row-end: ;
+		grid-column-start: ;
+		grid-column-end: ;
+
+	}
+
+	.castanhostitle{
+		grid-row-start: ;
+		grid-row-end: ;
+		grid-column-start: ;
+		grid-column-end: ;
+
+	}
+
+	.imagenscastanhos{
+		grid-row-start: ;
+		grid-row-end: ;
+		grid-column-start: ;
+		grid-column-end: ;
+
+	}
+
+	.loiros{
+		grid-row-start: ;
+		grid-row-end: ;
+		grid-column-start: ;
+		grid-column-end: ;
+
+	}
+
+	.loirostitle{
+		grid-row-start: ;
+		grid-row-end: ;
+		grid-column-start: ;
+		grid-column-end: ;
+
+	}
+
+	.imagensloiros{
+		grid-row-start: ;
+		grid-row-end: ;
+		grid-column-start: ;
+		grid-column-end: ;
+	}
+
+	.ruivos{
+		grid-row-start: ;
+		grid-row-end: ;
+		grid-column-start: ;
+		grid-column-end: ;
+
+	}
+
+	.ruivostitle{
+		grid-row-start: ;
+		grid-row-end: ;
+		grid-column-start: ;
+		grid-column-end: ;
+
+	}
+
+	.imagensruivos{
+
+		grid-row-start: ;
+		grid-row-end: ;
+		grid-column-start: ;
+		grid-column-end: ;
+
+	}
 }
