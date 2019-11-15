@@ -301,7 +301,7 @@ header > .wrapper a {
   width: 80%;
   height: 0;
   padding-bottom: 80%;
-  overflow: hidden;
+  overflow: hidden;0
 }
 .c-main {
   display: grid;
@@ -408,7 +408,7 @@ header > .wrapper a {
   background: #aa90cc;
 }
 .c-cal__cel:hover {
-  background-color: #dda4b2 !important;
+  background-color: #7e4cc0 !important;
 }
 .c-cal__cel:hover p {
   background: #a17fce !important;
@@ -451,7 +451,7 @@ header > .wrapper a {
   background-color: #10DDC2;
 }
 .event--important:before {
-  background-color: #F57170;
+  background-color: rgb(241, 58, 58);
 }
 .c-aside {
   width: 20rem;
@@ -459,7 +459,7 @@ header > .wrapper a {
   grid-column-start: 2;
 }
 .c-aside__day {
-  font-size: 28px;
+  font-size: 2.5rem;
   margin: 50px 0;
 }
 .c-aside__day .c-aside__num {
@@ -470,6 +470,7 @@ header > .wrapper a {
   position: relative;
   padding-left: 20px;
   margin: 20px 0;
+  font-size: 2rem;
 }
 .c-aside__event:before {
   position: absolute;
@@ -489,7 +490,7 @@ header > .wrapper a {
   background-color: #10DDC2;
 }
 .c-aside__event--important:before {
-  background-color: #F57170;
+  background-color: rgb(241, 58, 58);
 }
 .c-event__creator {
   position: fixed;
