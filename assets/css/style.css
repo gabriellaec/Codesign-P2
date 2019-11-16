@@ -14,8 +14,10 @@
 	height: 4rem;
 	color: #191970;
 	background-image: url(C:\Users\gabic\Documents\Co-design aplicativos\Codesign\3\assets\img\fundo.jpg) blue;
-	 background-image: radial-gradient(white, rgba(255,0,0,0), #FDBABA);
-
+	/*color: #fff;*/
+	background: linear-gradient(-45deg,  #5b9aa0,  #5b9aa0, #5b9aa0, #622569);
+	background-size: 400% 400%;
+	/*animation: gradientBG 15s ease infinite;*/
 }
 
 .header1 {
@@ -26,9 +28,20 @@
 	max-width: 1fr;
 	min-width: 1fr;
 	color: #E8938B;
-	background-color: #E8938B;
+	background: linear-gradient(-45deg,  #5b9aa0,  #5b9aa0, #5b9aa0, #622569);
 }
 
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 .nav2 {
   display: grid;
   grid-template-columns: 50% 30% auto;
@@ -124,7 +137,7 @@
 	margin-left:6.5rem;
 	margin-top: 1rem;
 	font-family:  "Petit Formal Script", "Roboto Slab";
-	color: #804047;
+	color: #f1eeee;
 
 	
 }
@@ -397,12 +410,15 @@
 	display: grid;
 	grid-template-columns: 50% 50%;
     grid-template-rows: auto 5% 12% 25% 25%;
-    background-image: linear-gradient(#FCD2D1,#F5F5F5,#F5F5F5, #F5F5F5);
-
+	color: #fff;
+	
+	background-size: 50% 400%;
 }
 
 .main{
 	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, #f3f0f0, #d8dff0, #bbc6dd, #bbc6dd);
 }
 
 .ptitle{
@@ -415,8 +431,8 @@
     margin-right: auto;
     justify-self:center;
     margin-top: 1.5rem;
-    color: #804047;
-    font-family:  "Julius Sans One", Paytone One;
+    color:black;
+    font-family:  Paytone One, "Julius Sans One";
 }
 
 .pimg {
@@ -444,8 +460,8 @@
 	margin-left: .5rem;
 	margin-top: 8rem;
 	font-size: 1.5rem;
-    font-family:  "Julius Sans One", Paytone One;
-    color: #804047;
+    font-family:  Paytone One, "Julius Sans One";
+    color: black;
 }
 
 .ptexto2{
@@ -457,6 +473,8 @@
 	font-size: 1.2rem;
 	font-family: Merriweather, serif;
 	line-height: 1.5rem;
+	color: black;
+
 }
 
 .historico{
@@ -467,8 +485,8 @@
 	margin-left: .5rem;
 	margin-top: 7rem;
 	font-size: 2rem;
-    font-family: "Julius Sans One", Paytone One;
-    color: #804047;
+    font-family: Paytone One, "Julius Sans One";
+    color: black;
 }
 .ptitulo3{
  	grid-column-start:2;
@@ -477,8 +495,8 @@
 	margin-left: .5rem;
 	margin-top: 1rem;
 	font-size: 1.4rem;
-    font-family: "Julius Sans One", Paytone One;
-    color: #804047;
+    font-family: Paytone One, "Julius Sans One";
+    color: black;
 }
 
 .ptexto3{
@@ -490,6 +508,8 @@
 	font-size: 1.0rem;
 	font-family: Merriweather, serif;
 	line-height:1.6em;
+	color: black;
+
 }
 
 .ptexto1{
@@ -502,6 +522,8 @@
 	font-size: 1.2rem;
 	font-family: Merriweather, serif;
 	line-height:1.6em;
+	color: black;
+
 }
 
 .ptexto12{
@@ -514,6 +536,8 @@
 	font-size: 1.2rem;
 	font-family: 'PT Sans', Merriweather, serif;
 	line-height:1.6em;
+	color: black;
+
 }
 
 .ptitulo1{
@@ -523,8 +547,8 @@
 	margin-left: .5rem;
 	margin-top:-1.5rem;
 	font-size: 1.5rem;
-    font-family:  "Julius Sans One", Paytone One;
-    color: #804047;
+    font-family:  Paytone One, "Julius Sans One";
+    color: black;
 }
 
 .ptexto13{
@@ -537,6 +561,8 @@
 	font-size: 1.2rem;
 	font-family: 'PT Sans', Merriweather, serif;
 	line-height:1.6em;
+	color: black;
+
 }
 
 b { 
@@ -566,8 +592,8 @@ hr {
 	margin-left: .5rem;
 	margin-top: 0.5rem;
 	font-size: 1.5rem;
-	font-family:  "Julius Sans One", Paytone One;
-	color: #804047;
+	font-family:  Paytone One, "Julius Sans One";
+	color: black;
 }
 
 .ptexto4{
@@ -580,6 +606,7 @@ hr {
 	margin-bottom: 3rem;
 	font-family: 'PT Sans', Merriweather, serif;
 	line-height:1.6em;
+	color: black;
 }
 
 .ptexto42{
@@ -592,6 +619,8 @@ hr {
 	margin-bottom: 3rem;
 	font-family: 'PT Sans', Merriweather, serif;
 	line-height:1.6em;
+	color: black;
+
 }
 
 .ptexto43{
@@ -604,6 +633,8 @@ hr {
 	margin-bottom: 3rem;
 	font-family: 'PT Sans', Merriweather, serif;
 	line-height:1.6em;
+	color: black;
+
 }
 
 
@@ -613,60 +644,112 @@ hr {
 
 .maincat{
 	display: grid;
-	grid-template-rows: 20% auto;
-	grid-template-columns: 50% 50%;
+	grid-template-rows: 20% auto auto auto;
+	grid-template-columns: 20% 80%;
+	font-color: rgb(27, 25, 25);
 
 }
 
-.csection1 { 
-	justify-self: center;  
-	grid-row-start: 1;
-	grid-column-start: 1;
-	grid-row-end:3;
-	grid-column-end: 4; 
-	text-align: center;
-	padding-left: 1.5rem;
-	padding-right:1.5rem;
-	padding-bottom: 1.5rem;
-	padding-top: 1.5rem;
-}
 
-.ctitle1{
-	grid-row-start: 2;
+.clientes{
 	grid-column-start:1;
-	grid-column-end: 4;
-	justify-content: center;
-	justify-self:center;
-	font-size:1.5rem;
-	margin-left:auto;
-	margin-right:auto;
-	border-style: solid;
-	border-width: 0.1rem;
-	height:5rem;
-	background-color: #9f9fdf;
-	margin-bottom: 0rem;
-	font-family:  "Petit Formal Script", "Roboto Slab", sans-serif;
+	grid-row-start: 1;
+	grid-column-end: 3;
+	justify-self: center;
+	margin-left: .5rem;
+	margin-top: 0.5rem;
+	font-size: 3rem;
+	font-family:  "Paytone One", "Julius Sans One";
+	font-color: #804047;
 }
-
 
 .cimg1{
-	grid-row-start: 3;
 	grid-column-start:1;
-	grid-column-end: 4;
-	grid-row-end: auto;
-	margin-bottom: 5rem;
-	max-width: 80%;
-	height: 100%;
+	grid-row-start: 2;
+	grid-column-end: 2;
+	border-radius: 50%;
+	justify-self: center;
+	margin-left: 3rem;
+	margin-top: 1.5rem;
+	border: 1px solid #804047;
+    padding: 5px;
 
 }
 
-.ctext1{
-	margin-bottom:1rem;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top: 2rem;
-	font-size: 1rem;
-	font-family: 'PT Sans', Merriweather, serif;
+.cimg2{
+	grid-column-start:1;
+	grid-row-start: 3;
+	grid-column-end: 2;
+	border-radius: 50%;
+	justify-self: center;
+	margin-left: 3rem;
+	margin-top: 1.5rem;
+	border: 1px solid #804047;
+    padding: 5px;
+
+}
+
+.cimg3{
+	grid-column-start:1;
+	grid-row-start: 4;
+	grid-column-end: 2;
+	border-radius: 50%;
+	justify-self: center;
+	margin-left: 3rem;
+	margin-top: 1.5rem;
+	border: 1px solid #804047;
+    padding: 5px;
+
+}
+
+.cliente1{
+	grid-column-start:2;
+	grid-row-start: 2;
+	grid-column-end: 3;
+	justify-self: left;
+	margin-left: 1.5rem;
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+	margin-left:3rem;
+	margin-top:2rem;
+	font-family:  "Paytone One", "Julius Sans One";
+	font-color: #804047;
+	
+
+}
+
+.cliente2{
+	grid-column-start:2;
+	grid-row-start: 3;
+	grid-column-end: 3;
+	justify-self: left;
+	font-size: 1.5rem;
+	margin-left:3rem;
+	margin-top:3rem;
+	font-family:  "Paytone One", "Julius Sans One";
+	font-color: #804047;
+	
+
+}
+.cliente3{
+	grid-column-start:2;
+	grid-row-start: 4;
+	grid-column-end: 3;
+	justify-self: left;
+	margin-left: 1.5rem;
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+	margin-left:3rem;
+	margin-top:3rem;
+	font-family:  "Paytone One", "Julius Sans One";
+	font-color: #804047;
+	margin-bottom: 10rem;
+	
+
+}
+
+.cimg1{
+
 }
 
 .h11 {
