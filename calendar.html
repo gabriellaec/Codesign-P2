@@ -5,7 +5,8 @@
   <title>Calendar</title>
   <link href = "assets/css/reset.css" rel = "stylesheet">
   <link href = "assets/css/calendar.css" rel = "stylesheet">
-  <script src = "assets/js/calendar.js"></script>
+  <script src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js' ></script>
+  <script src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.core.min.js'></script>
   <link href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css' rel = "stylesheet">
 </head>   
 <script>
@@ -161,16 +162,14 @@
         <input type="date" name="date">
         <textarea placeholder="Notes" name="notes" cols="30" rows="10"></textarea>
         <select name="tags">
-            <option value="event">event</option>
-            <option value="important">important</option>
-            <option value="birthday">birthday</option>
-            <option value="festivity">festivity</option>
+            <option value="event">corte</option>
+            <option value="important">evento</option>
+            <option value="birthday">reuniao</option>
+            <option value="festivity">recesso</option>
           </select>
       </form>
       <br>
       <a href="javascript:;" class="o-btn js-event__save">SAVE <span class="fa fa-save"></span></a>
     </div>
   </div>
-
-  <script src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js' ></script>
-  <script src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.core.min.js'></script>
+  <script src = "assets/js/calendar.js"></script>
