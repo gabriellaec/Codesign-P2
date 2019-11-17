@@ -238,7 +238,7 @@
   max-width: 35rem;
   min-width: 25rem;
   position: relative;
-  margin: auto;
+  margin: 5rem auto auto auto;
 }
 
 /* Hide the images by default */
@@ -336,8 +336,7 @@
 .um {
 	grid-column-start: 1;
 	grid-column-end: 1;
-	display:inline-flex;
-	align-items: center;
+	justify-content: center;
 	margin: 1rem;
 
 }
@@ -380,7 +379,7 @@
 }
 
 .section-menu-text {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-family:  "Petit Formal Script", "Roboto Slab", sans-serif;
 	color: #191970;
 
@@ -390,8 +389,8 @@
 	display: grid;
 	margin: 0 auto;
 	justify-content: center;
-	grid-template-rows: 10rem 10rem 10rem 10rem;
-	grid-template-columns: 50rem;
+	grid-template-rows: 10rem;
+	grid-template-columns: 20rem 20rem 20rem;
 
 }
 
@@ -923,15 +922,14 @@ hr {
 	.section-menu {
 		display: grid;
 		margin: 0 auto;
-		grid-template-rows: 10rem 10rem;
-		grid-template-columns: 25rem 25rem;
+		grid-template-rows: 10rem;
+		grid-template-columns: 20rem 20rem 20rem;
 	}
 
 	.um {
 		grid-column-start: auto;
 		grid-column-end: auto;
-		display:inline-flex;
-		align-items: center;
+		justify-content: center;
 		margin: 1rem;
 
 	}
@@ -968,7 +966,7 @@ hr {
 	}
 
 	.section-menu-text {
-		font-size: 1.8rem;
+		font-size: 2rem;
 		font-family: Limelight, Roboto Slab, sans-serif;
 		color: #191970;
 
