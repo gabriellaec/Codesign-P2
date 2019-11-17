@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   link.href = srtlink
 
 
-  let db = coDesConnect('https://entrega1-42708.firebaseio.com/')
+  let db = coDesConnect('https://projeto2-b7b4f.firebaseio.com/')
 
   db.download('/', function(data) {
 
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
       vai se arrepender. Você foi avisado.
     */
 
-    context = data['portfolio'][value]
+    context = data['Friseur'][value]
     console.log(context)
     coDesReplace('.csection1', context)
 
