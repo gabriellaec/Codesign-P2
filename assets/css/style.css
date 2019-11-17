@@ -235,8 +235,8 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 35rem;
-  min-width: 25rem;
+  max-width: 20rem;
+  min-width: 20rem;
   position: relative;
   margin: 5rem auto auto auto;
 }
@@ -278,6 +278,7 @@
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
+  color: rgb(255, 255, 255);
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -334,10 +335,11 @@
 }
 
 .um {
-	grid-column-start: 1;
-	grid-column-end: 1;
+	grid-column-start: auto;
+	grid-column-end: auto;
 	justify-content: center;
 	margin: 1rem;
+	top: 7rem;
 
 }
 
@@ -375,13 +377,14 @@
 .logos {
 	height: 4rem;
 	width: 4rem;
-	margin: 1rem;
+	margin:1rem
 }
 
 .section-menu-text {
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-family:  "Petit Formal Script", "Roboto Slab", sans-serif;
 	color: #191970;
+	margin: 0.5rem;
 
 }
 
@@ -390,7 +393,7 @@
 	margin: 0 auto;
 	justify-content: center;
 	grid-template-rows: 10rem;
-	grid-template-columns: 20rem 20rem 20rem;
+	grid-template-columns: 8rem 8rem 8rem;
 
 }
 
@@ -922,8 +925,8 @@ hr {
 	.section-menu {
 		display: grid;
 		margin: 0 auto;
-		grid-template-rows: 10rem;
-		grid-template-columns: 20rem 20rem 20rem;
+		grid-template-rows: 15rem;
+		grid-template-columns: 8rem 8rem 8rem;
 	}
 
 	.um {
@@ -931,6 +934,7 @@ hr {
 		grid-column-end: auto;
 		justify-content: center;
 		margin: 1rem;
+		top: 7rem;
 
 	}
 
@@ -966,9 +970,10 @@ hr {
 	}
 
 	.section-menu-text {
-		font-size: 2rem;
+		font-size: 1rem;
 		font-family: Limelight, Roboto Slab, sans-serif;
 		color: #191970;
+		margin: 0.5rem;
 
 	}
 

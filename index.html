@@ -4,6 +4,7 @@
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Limelight&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monoton|Neucha|PT+Mono|Paytone+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/
   css?family=Limelight|Merriweather+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap" rel="stylesheet">
@@ -13,13 +14,17 @@
   <script src="assets/js/codes.js"></script>
   <script src="assets/js/index.js"></script>
   <script src="assets/js/carousel.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monoton|Neucha|PT+Mono|Paytone+One&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
 </head>
 <body class = 'tudo'>
-  <header class = 'header2'>
-       <div class='nav2'>
+  <header class="header2">
+    <div class="nav2">
         <p><a class = "h12" href="index.html">Friseur</a></p>
-       </div>
-
+    </div>
   </header>
 
 
@@ -30,7 +35,7 @@
   <div class="mySlides fade", style = "display: block">
     <div class="numbertext">1 / 3</div>
     <img class = "img_slides"src="assets/img/invite.jpg", style = 'width: 100%'>
-    <div class="text">Agende</div>
+    <div class="text">Promoção</div>
   </div>
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
@@ -58,7 +63,7 @@
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
   <ul class="section-menu">
-    {{#each portfolio}}
+    {{#each Friseur}}
    <li class = 'um'>
     <img class='logos' src = assets/img/{{@key}}.png alt="logo_calculo">
     <div class="section-menu-text">
