@@ -252,7 +252,6 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -312,7 +311,7 @@
 }
 
 .active, .dot:hover {
-	background-color: #d98cb3;
+	background-color: #59466e;
   	background-image: url("assets/img/fundo.png");
 
 }
