@@ -404,8 +404,13 @@
 	font-family: Paytone One, "Julius Sans One";
 }
 
-.box {
+.box1 {
+	border-color: rgb(121, 121, 121);
+}
+
+.box2 {
 	margin-bottom: 2rem;
+	border-color: rgb(121, 121, 121);
 }
 
 .header{
