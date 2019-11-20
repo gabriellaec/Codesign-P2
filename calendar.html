@@ -23,6 +23,18 @@
     </div>
   </header>
 
+  <header class = 'header1'>
+    <div class='nav'>
+     <p><a class = "h1" href="index.html">Portfolio</a></p>
+     {{#each portfolio}} 
+
+     <p><a class="submenu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a></p> 
+     {{/each}}
+    </div>
+
+</header>
+
+
 <script>
     // fill the month table with column headings
   function day_title(day_name) {
