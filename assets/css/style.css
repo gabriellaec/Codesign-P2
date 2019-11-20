@@ -404,6 +404,9 @@
 	font-family: Paytone One, "Julius Sans One";
 }
 
+.box {
+	margin-bottom: 2rem;
+}
 
 .header{
 	border-style: solid;
