@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/
   css?family=Limelight|Merriweather+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monoton|Neucha|PT+Mono|Paytone+One&display=swap" rel="stylesheet">
+  <script src="assets/js/categoria.js"></script>
   
 </head> 
 
@@ -22,6 +23,18 @@
         <p><a class = "h12" href="index.html">Friseur</a></p>
     </div>
   </header>
+
+  <header class = 'header1'>
+    <div class='nav'>
+     <p><a class = "h1" href="index.html">Portfolio</a></p>
+     {{#each portfolio}} 
+
+     <p><a class="submenu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a></p> 
+     {{/each}}
+    </div>
+
+</header>
+
 
 <script>
     // fill the month table with column headings
