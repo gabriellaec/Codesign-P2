@@ -1738,10 +1738,10 @@ body{
   
   .shadow{
 	position: absolute;
-	top: 500px;
-	left: 100px;
-	width: 500px;
-	height: 40px;
+	top: 18rem;
+	left: 0rem;
+	width: 22rem;
+	height: 2rem;
 	border-radius: 50%;
 	background: radial-gradient(#805d78,rgba(0,0,0,0) 70%);
   }
@@ -1758,14 +1758,14 @@ body{
 	 background:linear-gradient(grey,lightgrey);
 	 width:var(--border-width);
 	 height:var(--border-height);
-	 max-height:375px;
-	 max-width:375px;
+	 max-height:250px;
+	 max-width:250px;
 	 height: var(--height);
 	 width:var(--width);
 	 transition:transform 0.2s;
 	 position:absolute;
 	 cursor:pointer;
-	 margin-top:7.5rem;
+	 margin-top:3.5rem;
 	 margin-left:1.8rem;
   }
   
@@ -1783,11 +1783,14 @@ body{
 	z-index:1;
 	transform:rotate(45deg);
 	transition:transform 0.5s;
+	border: 1px solid #ddd;
+    
   }
   
   .clipped-border:hover:before{
 	transform: translate(-100px,400%) rotate(45deg);
 	transition:transform 0.5s;
+
   }
   
   .clipped-border:nth-child(2){
@@ -1849,3 +1852,15 @@ body{
 	}
   }
   
+  .titulom{
+	  font-size: 3.0rem;
+	  margin-left:5.5rem;
+	  background-color: #585c92;
+	  margin-right:rem;
+	  border: .5rem white;
+	  border-style: double;
+	  margin-top:2rem;
+	  font-family:  "Paytone One", "Julius Sans One";
+
+
+  }
