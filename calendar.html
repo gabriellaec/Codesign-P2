@@ -5,7 +5,6 @@
   <title>Calendar</title>
   <link href = "assets/css/reset.css" rel = "stylesheet">
   <link href = "assets/css/calendar.css" rel = "stylesheet">
-  <link href = "assets/css/style.css" rel = "stylesheet">
   <script src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js' ></script>
   <script src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.core.min.js'></script>
   <link href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css' rel = "stylesheet">
@@ -16,28 +15,42 @@
   <script src="assets/js/categoria.js"></script>
   
 </head> 
-
 <body class = 'tudo'>
-  <header class="header2">
-    <div class="nav2">
-        <p><a class = "h12" href="index.html">Friseur</a></p>
-    </div>
-  </header>
-
-  <!--
-      <header class = 'header1'>
-    <div class='nav'>
-     <p><a class = "h1" href="index.html">Portfolio</a></p>
-     {{#each portfolio}} 
-
-     <p><a class="submenu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a></p> 
-     {{/each}}
-    </div>
-
-</header>
- -->
-
-
+    <header class="header2">
+      <div class="nav2">
+          <p><a class = "h12" href="index.html">Friseur</a></p>
+          <nav class="menu">
+            <input id="menu__toggle" type="checkbox" class='menu__toggle' />
+            <label for="menu__toggle" class="menu__toggle-label">
+              <svg preserveAspectRatio='xMinYMin' viewBox='0 0 24 24'>
+                <path d='M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z' />
+              </svg>
+              <svg preserveAspectRatio='xMinYMin' viewBox='0 0 24 24'>
+                <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+              </svg>
+            </label>
+            <ol class='menu__content'>
+              <li class="menu-item"><a href="index.html">Home</a></li>
+              <li class="menu-item">
+                <a href="#0">Index</a>
+                <ol class="sub-menu">
+                  <li class="menu-item"><a href="categoria.html">Clientes</a></li>
+                  <li class="menu-item"><a href="calendar.html">Calendário</a></li>
+                  <li class="menu-item"><a href="tintura.html">Catálogo de cores</a></li>
+                </ol>
+              </li>
+            </ol>
+          </nav>
+           <!-- <button class="dropbtn">Menu</button>
+                  <ul class="dropdown-content">
+                      {{#each portfolio}} 
+                       <li><a  href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+                {{/each}}
+  
+                  </ul>-->
+          </div>
+  
+        </header>
 <script>
     // fill the month table with column headings
   function day_title(day_name) {
@@ -187,10 +200,10 @@
     <div class="c-event__creator c-calendar__style js-event__creator">
       <a href="javascript:;" class="o-btn js-event__close">CLOSE <span class="fa fa-close"></span></a>
       <form id="addEvent">
-        <input placeholder="Event name" type="text" name="name">
-        <input type="date" name="date">
-        <textarea placeholder="Notes" name="notes" cols="30" rows="10"></textarea>
-        <select name="tags">
+        <input class = 'event_name' placeholder="Event name" type="text" name="name">
+        <input class = 'datinha' type="date" name="date">
+        <textarea class = 'notinhas' placeholder="Notes" name="notes" cols="30" rows="10"></textarea>
+        <select class = 'eventinhos' name="tags">
             <option value="event">corte</option>
             <option value="important">evento</option>
             <option value="birthday">reuniao</option>
@@ -202,4 +215,4 @@
     </div>
   </div>
   <script src = "assets/js/calendar.js"></script>
-</body>
+<!--</body>-->
