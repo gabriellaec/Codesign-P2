@@ -724,7 +724,7 @@ hr {
 	grid-column-end: 3;
 	justify-self: center;
 	margin-left: .5rem;
-	margin-top: 0.5rem;
+	margin-top: 2.5rem;
 	font-size: 3rem;
 	font-family:  "Paytone One", "Julius Sans One";
 	font-color: #804047;
@@ -750,7 +750,8 @@ hr {
 	border-radius: 50%;
 	justify-self: center;
 	margin-left: 3rem;
-	margin-top: 1.5rem;
+	margin-top: 3.5rem;
+	height:80%;
 	border: 1px solid #804047;
     padding: 5px;
 
@@ -763,9 +764,10 @@ hr {
 	border-radius: 50%;
 	justify-self: center;
 	margin-left: 3rem;
-	margin-top: 1.5rem;
+	margin-top: 5rem;
 	border: 1px solid #804047;
-    padding: 5px;
+	padding: 5px;
+	height:30%;
 
 }
 
@@ -792,7 +794,7 @@ hr {
 	justify-self: left;
 	font-size: 1.5rem;
 	margin-left:3rem;
-	margin-top:3rem;
+	margin-top:5rem;
 	font-family:  "Paytone One", "Julius Sans One";
 	font-color: #804047;
 	
@@ -804,10 +806,9 @@ hr {
 	grid-column-end: 3;
 	justify-self: left;
 	margin-left: 1.5rem;
-	margin-top: 0.5rem;
 	font-size: 1.5rem;
 	margin-left:3rem;
-	margin-top:3rem;
+	margin-top:7rem;
 	font-family:  "Paytone One", "Julius Sans One";
 	font-color: #804047;
 	margin-bottom: 10rem;
@@ -1854,12 +1855,12 @@ body{
   
   .titulom{
 	  font-size: 3.0rem;
-	  margin-left:5.5rem;
+	  margin-left:5rem;
 	  background-color: #585c92;
-	  margin-right:rem;
 	  border: .5rem white;
 	  border-style: double;
 	  margin-top:2rem;
+	  margin-right:4.5rem;
 	  font-family:  "Paytone One", "Julius Sans One";
 
 
